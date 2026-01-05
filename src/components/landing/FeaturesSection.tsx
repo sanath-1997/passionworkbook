@@ -37,7 +37,7 @@ export function FeaturesSection() {
                     </ul>
                 </CardContent>
             </Card>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
               <Button size="lg" asChild>
                 <a href="/passion-finder-workbook.pdf" download="passion-finder-workbook.pdf">
                   <Download className="mr-2 h-5 w-5" />
