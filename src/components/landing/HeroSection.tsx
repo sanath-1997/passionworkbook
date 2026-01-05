@@ -1,13 +1,7 @@
 'use client';
 import { Button } from '@/components/ui/button';
-import { ArrowDown, Download } from 'lucide-react';
+import { Download } from 'lucide-react';
 import { AnimatedSection } from '@/components/ui/animated-section';
-
-const scrollTo = (id: string) => {
-  document.getElementById(id)?.scrollIntoView({
-    behavior: 'smooth',
-  });
-};
 
 export function HeroSection() {
   return (
@@ -24,9 +18,6 @@ export function HeroSection() {
               You're not alone. Many people reach a point where what they are doing no longer feels right, but they don’t know what to do next. This workbook is for that stage of life. No motivation, no hype, just clarity.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" onClick={() => scrollTo('interactive-questions')}>
-                Start Reflecting <ArrowDown className="ml-2 h-5 w-5" />
-              </Button>
               <Button size="lg" variant="outline" asChild className="bg-background/50 backdrop-blur-sm">
                 <a href="/pathfinder-workbook.pdf" download="pathfinder-workbook.pdf">
                   <Download className="mr-2 h-5 w-5" />
