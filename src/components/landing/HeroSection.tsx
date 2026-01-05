@@ -18,7 +18,7 @@ export function HeroSection() {
               You're not alone. Many people reach a point where what they are doing no longer feels right, but they don’t know what to do next. This workbook is for that stage of life. No motivation, no hype, just clarity.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="outline" asChild className="bg-background/50 backdrop-blur-sm">
+              <Button size="lg" asChild>
                 <a href="/passion-finder-workbook.pdf" download="passion-finder-workbook.pdf">
                   <Download className="mr-2 h-5 w-5" />
                   Download Workbook
