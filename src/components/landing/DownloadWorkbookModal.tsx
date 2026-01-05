@@ -22,8 +22,8 @@ export function DownloadWorkbookModal({ children }: { children: React.ReactNode 
             I am charging a small amount of ₹49 for this workbook because creating it took a lot of time and energy. I am very confident that this workbook will help you become aware of your real passion and talents. It is truly worth it.
           </DialogDescription>
         </DialogHeader>
-        <DialogFooter className="flex flex-col gap-2 pt-4">
-          <Button asChild size="lg">
+        <DialogFooter className="flex flex-col gap-2 pt-4 items-center">
+          <Button asChild size="lg" className="w-full">
             <a href="/passion-finder-workbook.pdf" download="passion-finder-workbook.pdf">
               Get the Workbook for ₹49
             </a>
