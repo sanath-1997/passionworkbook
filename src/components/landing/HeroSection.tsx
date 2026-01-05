@@ -11,7 +11,7 @@ export function HeroSection() {
       <AnimatedSection>
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <p className="text-primary font-semibold mb-4 text-lg">Hey there,</p>
+            <p className="text-primary font-semibold mb-4 text-xl">Hey there,</p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-headline font-bold tracking-tighter mb-6">
               If you are Confused about your life or career,
             </h2>
