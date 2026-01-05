@@ -6,7 +6,7 @@ import { DownloadWorkbookModal } from './DownloadWorkbookModal';
 
 export function HeroSection() {
   return (
-    <section className="relative pt-32 pb-20 md:pt-48 md:pb-20">
+    <section className="relative pt-32 pb-10 md:pt-48 md:pb-12">
       <div className="absolute inset-0 -z-10 h-full w-full bg-secondary [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"></div>
       <AnimatedSection>
         <div className="container mx-auto px-4 md:px-6">
