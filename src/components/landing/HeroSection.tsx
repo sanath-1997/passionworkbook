@@ -12,7 +12,7 @@ export function HeroSection() {
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-primary font-semibold mb-4 text-lg">Hey there,</p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-headline font-bold tracking-tighter mb-6">
-              Confused about your life or career?
+              If you are Confused about your life or career,
             </h2>
             <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
               You're not alone. Many people reach a point where what they are doing no longer feels right, but they don’t know what to do next. This workbook is for that stage of life. No motivation, no hype, just clarity.
