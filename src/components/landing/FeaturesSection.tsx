@@ -1,4 +1,5 @@
-import { CheckCircle2 } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Download, CheckCircle2 } from 'lucide-react';
 import { AnimatedSection } from '@/components/ui/animated-section';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -36,6 +37,14 @@ export function FeaturesSection() {
                     </ul>
                 </CardContent>
             </Card>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
+              <Button size="lg" asChild>
+                <a href="/passion-finder-workbook.pdf" download="passion-finder-workbook.pdf">
+                  <Download className="mr-2 h-5 w-5" />
+                  Download Workbook
+                </a>
+              </Button>
+            </div>
         </div>
       </AnimatedSection>
     </section>
