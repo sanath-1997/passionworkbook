@@ -8,7 +8,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-const imageList = ["/one.png", "/two.png", "/three.png"];
+const imageList = ["/images/one.png", "/images/two.png", "/images/three.png"];
 
 export function PreviewSection() {
   return (
