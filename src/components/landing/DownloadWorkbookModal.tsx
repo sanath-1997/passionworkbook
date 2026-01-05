@@ -19,7 +19,7 @@ export function DownloadWorkbookModal({ children }: { children: React.ReactNode 
         <DialogHeader className="text-center">
           <DialogTitle className="text-2xl font-headline">One more thing...</DialogTitle>
           <DialogDescription className="text-base text-muted-foreground pt-2">
-            I am charging a small amount of ₹49 for this workbook because creating it took a lot of time and energy. I am very confident that this workbook will help you become aware of your real passion and talents. It is truly worth it.
+            I am charging a small amount of ₹49 for this workbook because creating it took a lot of time and energy. I am very confident that this workbook will help you become aware of your real passion and talent. It is truly worth it.
           </DialogDescription>
         </DialogHeader>
         <DialogFooter className="flex flex-col items-center justify-center pt-4 sm:flex-col sm:justify-center gap-2">
