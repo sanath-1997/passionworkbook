@@ -1,36 +1,47 @@
 import Image from 'next/image';
 import { AnimatedSection } from '@/components/ui/animated-section';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+
+const imageList = ["/one.png", "/two.png", "/three.png"];
 
 export function PreviewSection() {
   return (
-    <section className="pt-16 pb-16 md:pt-24 md:pb-24 bg-background">
+    <section className="pt-8 pb-16 md:pt-12 md:pb-24 bg-background">
       <AnimatedSection className="container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tight">
             Preview of <span className="text-primary">Find your Passion Workbook</span>
           </h2>
         </div>
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          <div className="overflow-hidden rounded-lg shadow-lg">
-            <Image
-              src="https://picsum.photos/seed/passion-1/600/800"
-              alt="Workbook preview one"
-              width={600}
-              height={800}
-              className="w-full h-auto"
-              data-ai-hint="workbook page"
-            />
-          </div>
-          <div className="overflow-hidden rounded-lg shadow-lg">
-            <Image
-              src="https://picsum.photos/seed/passion-2/600/800"
-              alt="Workbook preview two"
-              width={600}
-              height={800}
-              className="w-full h-auto"
-              data-ai-hint="workbook page"
-            />
-          </div>
+        <div className="max-w-xl mx-auto">
+          <Carousel className="w-full">
+            <CarouselContent>
+              {imageList.map((src, index) => (
+                <CarouselItem key={index}>
+                  <div className="p-1">
+                    <div className="overflow-hidden rounded-lg shadow-lg">
+                      <Image
+                        src={src}
+                        alt={`Workbook preview ${index + 1}`}
+                        width={600}
+                        height={800}
+                        className="w-full h-auto"
+                        data-ai-hint="workbook page"
+                      />
+                    </div>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="hidden sm:flex" />
+            <CarouselNext className="hidden sm:flex" />
+          </Carousel>
         </div>
       </AnimatedSection>
     </section>
