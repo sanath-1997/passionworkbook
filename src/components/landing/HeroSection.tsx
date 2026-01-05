@@ -19,7 +19,7 @@ export function HeroSection() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="outline" asChild className="bg-background/50 backdrop-blur-sm">
-                <a href="/pathfinder-workbook.pdf" download="pathfinder-workbook.pdf">
+                <a href="/passion-finder-workbook.pdf" download="passion-finder-workbook.pdf">
                   <Download className="mr-2 h-5 w-5" />
                   Download Workbook
                 </a>

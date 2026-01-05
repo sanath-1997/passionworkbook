@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Pathfinder Workbook',
+  title: 'Passion Finder Workbook',
   description: 'No motivation, no hype, just clarity.',
 };
 
