@@ -15,7 +15,7 @@ const imageList = ["/images/one.png", "/images/two.png", "/images/three.png"];
 
 export function PreviewSection() {
   const plugin = React.useRef(
-    Autoplay({ delay: 500, stopOnInteraction: true })
+    Autoplay({ delay: 1500, stopOnInteraction: true })
   );
 
   return (
