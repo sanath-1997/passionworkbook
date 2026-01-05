@@ -20,9 +20,9 @@ export function DownloadWorkbookModal({ children }: { children: React.ReactNode 
         <DialogHeader className="text-center">
           <DialogTitle className="text-2xl font-headline">One more thing... ✨</DialogTitle>
           <DialogDescription asChild>
-            <div className="text-xl text-foreground pt-2">
+            <div className="text-lg text-foreground pt-2">
             <p>I am charging a small amount of ₹49 for this workbook because creating it took a lot of time and energy. I am very confident that this workbook will help you become aware of your real passion and talent. It is truly worth it.</p>
-            <p className="text-red-500 mt-2 text-lg">Kindly take a printout of the PDF after you download.</p>
+            <p className="text-red-500 mt-2 text-base">Kindly take a printout of the PDF after you download.</p>
             </div>
           </DialogDescription>
         </DialogHeader>
