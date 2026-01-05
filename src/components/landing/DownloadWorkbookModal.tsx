@@ -28,7 +28,7 @@ export function DownloadWorkbookModal({ children }: { children: React.ReactNode 
               Get the Workbook for ₹49
             </a>
           </Button>
-          <p className="text-xs text-muted-foreground text-center">
+          <p className="text-base text-muted-foreground text-center">
             This worksheet is in PDF format. You are free to share it with your siblings, cousins, and friends.
           </p>
         </DialogFooter>
