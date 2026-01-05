@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Download, CheckCircle2 } from 'lucide-react';
 import { AnimatedSection } from '@/components/ui/animated-section';
 import { Card, CardContent } from '@/components/ui/card';
+import { DownloadWorkbookModal } from './DownloadWorkbookModal';
 
 const feelingList = [
   "You don’t hate what you’re doing, but it doesn’t feel right either",
@@ -38,12 +39,12 @@ export function FeaturesSection() {
                 </CardContent>
             </Card>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-              <Button size="lg" asChild>
-                <a href="/passion-finder-workbook.pdf" download="passion-finder-workbook.pdf">
+              <DownloadWorkbookModal>
+                <Button size="lg">
                   <Download className="mr-2 h-5 w-5" />
                   Download Workbook
-                </a>
-              </Button>
+                </Button>
+              </DownloadWorkbookModal>
             </div>
         </div>
       </AnimatedSection>
