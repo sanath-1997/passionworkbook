@@ -28,7 +28,7 @@ export function DownloadWorkbookModal({ children }: { children: React.ReactNode 
         </DialogHeader>
         <DialogFooter className="flex flex-col items-center justify-center pt-4 sm:flex-col sm:justify-center sm:space-y-0 gap-2">
           <Button asChild size="lg" className="w-full text-base">
-            <a href="/passion-finder-workbook.pdf" download="passion-finder-workbook.pdf">
+            <a href="https://rzp.io/l/ZeDSqBI" target="_blank" rel="noopener noreferrer">
               <Gift className="mr-2 h-5 w-5" />
               Get the Workbook for ₹49
             </a>
