@@ -40,7 +40,7 @@ export function FeaturesSection() {
             </Card>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
               <DownloadWorkbookModal>
-                <Button size="lg">
+                <Button size="lg" className="text-base">
                   <Download className="mr-2 h-5 w-5" />
                   Download Workbook
                 </Button>
