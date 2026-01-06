@@ -18,7 +18,7 @@ export function FeaturesSection() {
       <AnimatedSection className="container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tight mb-6">
-            If you are Feeling Stuck or Lost,
+            If you are Feeling Stuck or Lost in Life
           </h2>
           <p className="text-lg text-muted-foreground mb-12">
             If even one of these feels true, this workbook is for you.
