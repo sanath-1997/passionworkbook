@@ -11,7 +11,7 @@ import {
 import Autoplay from "embla-carousel-autoplay";
 import * as React from 'react';
 
-const imageList = ["/images/one.png", "/images/two.png", "/images/three.png"];
+const imageList = ["/images/one.png", "/images/two.png", "/images/three.png", "/images/four.png"];
 
 export function PreviewSection() {
   const plugin = React.useRef(
