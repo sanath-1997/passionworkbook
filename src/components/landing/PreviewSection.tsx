@@ -25,7 +25,7 @@ export function PreviewSection() {
           <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tight">
             Preview of <span className="text-primary">Find your Passion Workbook</span>
           </h2>
-          <p className="text-lg text-foreground mt-4">Total : 16 Pages 📄</p>
+          <p className="text-lg text-foreground mt-4 font-bold">Total : 16 Pages 📄</p>
         </div>
         <div className="max-w-xl mx-auto">
           <Carousel 
