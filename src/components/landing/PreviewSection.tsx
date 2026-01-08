@@ -11,7 +11,7 @@ import {
 import Autoplay from "embla-carousel-autoplay";
 import * as React from 'react';
 
-const imageList = ["/images/one.png", "/images/two.png", "/images/three.png", "/images/four.png"];
+const imageList = ["/images/first.png", "/images/second.png", "/images/third.png", "/images/fourth.png"];
 
 export function PreviewSection() {
   const plugin = React.useRef(
@@ -25,6 +25,7 @@ export function PreviewSection() {
           <h2 className="text-3xl md:text-4xl font-headline font-bold tracking-tight">
             Preview of <span className="text-primary">Find your Passion Workbook</span>
           </h2>
+          <p className="text-lg text-muted-foreground mt-4">Total : 16 Pages</p>
         </div>
         <div className="max-w-xl mx-auto">
           <Carousel 
