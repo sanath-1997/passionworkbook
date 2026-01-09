@@ -49,8 +49,7 @@ export default function PolicyPage() {
             <h2 className="text-2xl font-headline font-semibold text-foreground pt-4 border-t">Refund & Cancellation Policy</h2>
 
             <h3 className="text-xl font-headline font-semibold text-foreground pt-4">Digital Product</h3>
-            <p>Thank you for purchasing the Passion Finder Workbook. As this is a digital product (PDF file), it is deemed "used" after download or opening.</p>
-            <p>Therefore, we have a strict no-refund policy. All sales are final. We do not offer refunds or exchanges for our digital workbook.</p>
+            <p>Thank you for purchasing the Passion Finder Workbook. As this is a digital product (PDF file), it is deemed "used" after download or opening. While most sales are final, a refund is available if you were seriously disappointed with the worksheet. Please contact us to request one.</p>
 
             <h3 className="text-xl font-headline font-semibold text-foreground pt-4">Cancellations</h3>
             <p>Once an order is placed and the payment is processed, the sale is final, and you will receive access to the digital workbook immediately. Cancellations are not possible after the purchase has been completed.</p>
