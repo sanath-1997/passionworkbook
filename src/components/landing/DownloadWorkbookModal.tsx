@@ -34,6 +34,9 @@ export function DownloadWorkbookModal({ children }: { children: React.ReactNode 
             </a>
           </Button>
           <div className="h-2" />
+          <p className="text-sm text-muted-foreground text-center">
+            Note: Refund option is available if you seriously disappointed with the worksheet. Mail address given below.
+          </p>
           <p className="text-base text-foreground text-center pt-2">
             This worksheet is in PDF format. You are free to share it with your siblings, cousins, and friends.
           </p>
